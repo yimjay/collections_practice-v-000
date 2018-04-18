@@ -39,3 +39,7 @@ end
 def sum_array(array)
   array.inject { |result, element| result + element}
 end
+
+def add_s(strings)
+  strings.each_with_index.collect { |word, index| word << "s" if index != 1 } 
+end
