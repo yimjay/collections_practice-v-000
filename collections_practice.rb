@@ -27,3 +27,7 @@ end
 def reverse_array(integers)
   integers.reverse
 end
+
+def kesha_maker(strings)
+  new_array = strings.each { |word| word[2] = "$" }
+end
