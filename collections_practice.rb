@@ -31,3 +31,7 @@ end
 def kesha_maker(strings)
   new_array = strings.each { |word| word[2] = "$" }
 end
+
+def find_a(strings)
+  strings.find { |word| word.start_with?("a") }
+end
